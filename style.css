@@ -53,8 +53,113 @@ li:hover {
   color: rgb(39, 39, 136);
 }
 .nav-btn:hover {
+  width: 165px;
   transform: scale(1.02);
   background-color: white;
   color: rgba(70, 145, 101, 1);
   border: 0.5px solid rgba(70, 145, 101, 1);
+}
+
+/* hero section styles */
+.hero {
+  width: 1600px;
+  height: 674px;
+  margin: 0 auto;
+  background-image: url("assets/hero-bg.png");
+}
+.hero-content {
+  text-align: center;
+  padding: 70px 120px 134px 120px;
+}
+.button1 {
+  width: 229px;
+  height: 35px;
+  gap: 6px;
+  text-align: center;
+  padding: 8px 12px;
+  margin: 0 556.5px;
+  border: none;
+  border-radius: 1000px;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.cbig {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: rgba(37, 121, 72, 0.2);
+  opacity: 0.2;
+}
+.cmedium {
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background: rgba(71, 173, 113, 0.4);
+  opacity: 0.4;
+}
+.csmall {
+  width: 6px;
+  height: 6px;
+  border-radius: 8px;
+  background: rgb(156, 237, 190);
+}
+.button1 .b1-pera {
+  width: 183px;
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.hero-content h1 {
+  width: 770px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: white;
+  margin: 24px 295px 16px 295px;
+}
+.hero-content span {
+  color: rgba(70, 145, 101, 1);
+}
+.hero-content p {
+  width: 1360px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.btns {
+  width: 465px;
+  margin: 0 447.5px;
+}
+.button2 {
+  width: 251px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  background: rgba(70, 145, 101, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+}
+.button3 {
+  width: 198px;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  background-color: transparent;
+  margin-left: 16px;
 }
