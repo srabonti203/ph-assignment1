@@ -249,3 +249,58 @@ li:hover {
   font-weight: 400;
   line-height: 20px;
 }
+/* solution part styles */
+.solution {
+  height: 600px;
+  gap: 60px;
+}
+.solution-text {
+  width: 700px;
+  margin: 102px 0;
+}
+.s-pera1 {
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.solution-text h2 {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+.s-pera2 {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.list1,
+.list2,
+.list3,
+.list4 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.solution-list img {
+  width: 20px;
+  height: 20px;
+}
+.solution-list p {
+  position: absolute;
+  z-index: 1;
+  top: 1px;
+  left: 29px;
+  color: rgba(0, 25, 49, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
