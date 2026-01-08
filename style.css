@@ -40,7 +40,6 @@
 .button1 {
   width: 229px;
   height: 35px;
-  gap: 6px;
   text-align: center;
   padding: 8px 12px;
   margin: 0 556.5px;
@@ -54,26 +53,8 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.cbig {
-  width: 16px;
-  height: 16px;
-  border-radius: 8px;
-  background: #469165;
-  opacity: 0.2;
-}
-.cmedium {
-  top: 9px;
-  width: 12px;
-  height: 12px;
-  border-radius: 8px;
-  background: #469165;
-  opacity: 0.4;
-}
-.csmall {
-  width: 6px;
-  height: 6px;
-  border-radius: 8px;
-  background: #469165;
+.button1 img {
+  margin-left: 4px;
 }
 .button1:hover {
   transform: scale(1.02);
