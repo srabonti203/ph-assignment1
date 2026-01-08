@@ -177,3 +177,75 @@ li:hover {
   width: 465px;
   margin: 0 447.5px;
 }
+/* notes style */
+.note {
+  text-align: center;
+}
+.note h2 {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  padding-top: 62px;
+  margin-bottom: 16px;
+}
+.note p {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* note cart styles */
+.note-cart {
+  margin-top: 44px;
+  margin-bottom: 72px;
+  gap: 24px;
+}
+.cart1,
+.cart2,
+.cart3,
+.cart4,
+.cart5 {
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 1);
+}
+.cart1 .image,
+.cart2 .image,
+.cart3 .image,
+.cart4 .image,
+.cart5 .image {
+  width: 60px;
+  height: 60px;
+  margin: 45.5px 107px 16px 107px;
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+}
+.image img {
+  padding: 14px;
+}
+.cart1 h5,
+.cart2 h5,
+.cart3 h5,
+.cart4 h5,
+.cart5 h5 {
+  color: rgba(0, 25, 49, 1);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.cart1 p,
+.cart2 p,
+.cart3 p,
+.cart4 p,
+.cart5 p {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
